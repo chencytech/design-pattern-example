@@ -1,4 +1,4 @@
-package com.chaytech.example.factory;
+package com.chaytech.example.factory.simplefactory;
 
 public class Benz implements ICar {
 

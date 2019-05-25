@@ -1,8 +1,6 @@
-package com.chaytech.example.factory;
+package com.chaytech.example.factory.simplefactory;
 
-import sun.applet.Main;
-
-public class FactoryTest {
+public class SimpleFactoryTest {
     public static void main(String[] args) {
         ICar audi = CarFactory.getCar("奥迪");
         System.out.println(audi.getCarName());
